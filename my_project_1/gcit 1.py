@@ -1,8 +1,4 @@
 print("hello world")
-
-
-
-
 # name=input("what is your name?")
 # greetings = "hope you done good "+name
 # print(greetings)
@@ -20,3 +16,6 @@ print("hello world")
 # print(sum)
 
 
+x=10
+y=10
+print(x+y)
