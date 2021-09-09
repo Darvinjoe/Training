@@ -15,10 +15,10 @@ tbl = soup.find("table",class_="table cb-srs-pnts")
 
 col_names = [x.get_text() for x in tbl.find_all('td',class_="cb-srs-pnts-th")]
 col_names[5]='pts'
-#print(col_names)
+# print(col_names)
 
 team_names = [x.get_text() for x in tbl.find_all('td',class_="cb-srs-pnts-name")]
-#print(team_names)
+print(team_names)
 
 pnt_tbl = [x.get_text() for x in tbl.find_all('td',class_="cb-srs-pnts-td")]
 #print(pnt_tbl)
